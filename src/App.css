@@ -1,0 +1,78 @@
+:root{
+  --color-primary:#F17105;
+  --color-text:#000000;
+  
+}
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: bolder;
+  color: var(--color-text);
+}
+.app{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+}
+.container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* width: 60%; */
+  box-shadow: 0px 0px 10px #ccc;
+  border-radius: 8px;
+  padding: 20px;
+}
+.container .dataInp,.showRes{
+  padding: 2px;
+  margin: 8px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.container .dataInp .data{
+  padding: 5px;
+  margin: 8px;
+}
+.btns{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.btn{
+  padding: 4px;
+  margin: 8px 2px;
+  width: 25vh; 
+  font-size: 15px;
+  border: 2px solid;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.btn_first{
+  background-color: var(--color-primary);
+}
+.btn_second{
+  color: var(--color-back);
+}
+h2{
+  font-size: 40px;
+}
+label{
+  font-size: 25px;
+}
+input{
+  border: 0.8px solid;
+  border-radius: 5px;
+}
+.image img{
+  width: 200px;
+  height: 200px;
+}

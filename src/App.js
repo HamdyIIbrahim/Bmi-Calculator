@@ -12,10 +12,10 @@ function App() {
     e.preventDefault();
     let bmiCalc =(weight / (height * height) *703);
     setBmiCalc(bmiCalc.toFixed(1));
-    if(bmiCalc < 25){
+    if(bmiCalc < 2.5){
       setMessage('You are skinny')
       
-    }else if(bmiCalc >=25 && bmiCalc<30){
+    }else if(bmiCalc >=2.5 && bmiCalc<3){
       setMessage('You are prefect and healthy')
     }else{
       setMessage('You are fat')
